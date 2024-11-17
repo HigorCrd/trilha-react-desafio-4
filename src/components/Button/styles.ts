@@ -13,5 +13,11 @@ export const ButtonContainer = styled.button`
     &:hover {
         opacity: 0.6;
         cursor:pointer;
+    
     }
+        
+    &:disabled {
+    background-color: #ddd; // 
+    cursor: not-allowed; // 
+  }
 `
